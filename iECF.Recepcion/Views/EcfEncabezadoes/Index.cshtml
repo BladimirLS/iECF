@@ -1,0 +1,128 @@
+﻿@model IEnumerable<iECF.Recepcion.Models.EcfEncabezado>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table id="myTable" class="myTable">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoIdDoc.TipoeCF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoIdDoc.ENCF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoIdDoc.FechaVencimientoSecuencia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoEmisor.RNCEmisor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoEmisor.RazonSocialEmisor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoComprador.RNCComprador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoComprador.RazonSocialComprador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ECFDetallesItemsItem.NombreItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ECFDetallesItemsItem.CantidadItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ECFDetallesItemsItem.MontoItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.MontoGravadoI1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.ITBIS1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.MontoExento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.MontoExento)
+        </th>
+
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoIdDoc.TipoeCF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoIdDoc.ENCF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoIdDoc.FechaVencimientoSecuencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoEmisor.RNCEmisor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoEmisor.RazonSocialEmisor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoComprador.RNCComprador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoComprador.RazonSocialComprador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ECFDetallesItemsItem.NombreItem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ECFDetallesItemsItem.CantidadItem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ECFDetallesItemsItem.MontoItem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoTotale.MontoGravadoI1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoTotale.ITBIS1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoTotale.MontoExento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EcfEncabezadoTotale.MontoTotal)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+    </tbody>
+
+</table>
+
+@section scripts
+{
+    <script>
+    
+
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        } );
+    </script>
+}

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Comp_ElectronicosDataSet5" targetNamespace="http://tempuri.org/Comp_ElectronicosDataSet5.xsd" xmlns:mstns="http://tempuri.org/Comp_ElectronicosDataSet5.xsd" xmlns="http://tempuri.org/Comp_ElectronicosDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Comp_ElectronicosConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Comp_ElectronicosConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.iECF.Properties.Settings.GlobalReference.Default.Comp_ElectronicosConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="comp_elecTableAdapter" GeneratorDataComponentClassName="comp_elecTableAdapter" Name="comp_elec" UserDataComponentName="comp_elecTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Comp_ElectronicosConnectionString (Settings)" DbObjectName="Comp_Electronicos.dbo.comp_elec" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT codigo, Estado, ENCF, FechaVencimientoSecuencia, TipoIngresos, RNCEmisor, RazonSocialEmisor, RNCComprador, RazonSocialComprador, NumeroLinea, NombreItem, MontoItem, MontoGravadoTotal, MontoTotal FROM dbo.comp_elec</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="codigo" DataSetColumn="codigo" />
+              <Mapping SourceColumn="Estado" DataSetColumn="Estado" />
+              <Mapping SourceColumn="ENCF" DataSetColumn="ENCF" />
+              <Mapping SourceColumn="FechaVencimientoSecuencia" DataSetColumn="FechaVencimientoSecuencia" />
+              <Mapping SourceColumn="TipoIngresos" DataSetColumn="TipoIngresos" />
+              <Mapping SourceColumn="RNCEmisor" DataSetColumn="RNCEmisor" />
+              <Mapping SourceColumn="RazonSocialEmisor" DataSetColumn="RazonSocialEmisor" />
+              <Mapping SourceColumn="RNCComprador" DataSetColumn="RNCComprador" />
+              <Mapping SourceColumn="RazonSocialComprador" DataSetColumn="RazonSocialComprador" />
+              <Mapping SourceColumn="NumeroLinea" DataSetColumn="NumeroLinea" />
+              <Mapping SourceColumn="NombreItem" DataSetColumn="NombreItem" />
+              <Mapping SourceColumn="MontoItem" DataSetColumn="MontoItem" />
+              <Mapping SourceColumn="MontoGravadoTotal" DataSetColumn="MontoGravadoTotal" />
+              <Mapping SourceColumn="MontoTotal" DataSetColumn="MontoTotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Comp_ElectronicosDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Comp_ElectronicosDataSet5" msprop:Generator_DataSetName="Comp_ElectronicosDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="comp_elec" msprop:Generator_RowEvHandlerName="comp_elecRowChangeEventHandler" msprop:Generator_RowDeletedName="comp_elecRowDeleted" msprop:Generator_RowDeletingName="comp_elecRowDeleting" msprop:Generator_RowEvArgName="comp_elecRowChangeEvent" msprop:Generator_TablePropName="comp_elec" msprop:Generator_RowChangedName="comp_elecRowChanged" msprop:Generator_RowChangingName="comp_elecRowChanging" msprop:Generator_TableClassName="comp_elecDataTable" msprop:Generator_RowClassName="comp_elecRow" msprop:Generator_TableVarName="tablecomp_elec" msprop:Generator_UserTableName="comp_elec">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_UserColumnName="codigo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="450" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Estado" msprop:Generator_ColumnPropNameInRow="Estado" msprop:Generator_ColumnPropNameInTable="EstadoColumn" msprop:Generator_ColumnVarNameInTable="columnEstado" msprop:Generator_UserColumnName="Estado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ENCF" msprop:Generator_ColumnPropNameInRow="ENCF" msprop:Generator_ColumnPropNameInTable="ENCFColumn" msprop:Generator_ColumnVarNameInTable="columnENCF" msprop:Generator_UserColumnName="ENCF" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaVencimientoSecuencia" msprop:Generator_ColumnPropNameInRow="FechaVencimientoSecuencia" msprop:Generator_ColumnPropNameInTable="FechaVencimientoSecuenciaColumn" msprop:Generator_ColumnVarNameInTable="columnFechaVencimientoSecuencia" msprop:Generator_UserColumnName="FechaVencimientoSecuencia" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoIngresos" msprop:Generator_ColumnPropNameInRow="TipoIngresos" msprop:Generator_ColumnPropNameInTable="TipoIngresosColumn" msprop:Generator_ColumnVarNameInTable="columnTipoIngresos" msprop:Generator_UserColumnName="TipoIngresos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RNCEmisor" msprop:Generator_ColumnPropNameInRow="RNCEmisor" msprop:Generator_ColumnPropNameInTable="RNCEmisorColumn" msprop:Generator_ColumnVarNameInTable="columnRNCEmisor" msprop:Generator_UserColumnName="RNCEmisor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocialEmisor" msprop:Generator_ColumnPropNameInRow="RazonSocialEmisor" msprop:Generator_ColumnPropNameInTable="RazonSocialEmisorColumn" msprop:Generator_ColumnVarNameInTable="columnRazonSocialEmisor" msprop:Generator_UserColumnName="RazonSocialEmisor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RNCComprador" msprop:Generator_ColumnPropNameInRow="RNCComprador" msprop:Generator_ColumnPropNameInTable="RNCCompradorColumn" msprop:Generator_ColumnVarNameInTable="columnRNCComprador" msprop:Generator_UserColumnName="RNCComprador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocialComprador" msprop:Generator_ColumnPropNameInRow="RazonSocialComprador" msprop:Generator_ColumnPropNameInTable="RazonSocialCompradorColumn" msprop:Generator_ColumnVarNameInTable="columnRazonSocialComprador" msprop:Generator_UserColumnName="RazonSocialComprador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumeroLinea" msprop:Generator_ColumnPropNameInRow="NumeroLinea" msprop:Generator_ColumnPropNameInTable="NumeroLineaColumn" msprop:Generator_ColumnVarNameInTable="columnNumeroLinea" msprop:Generator_UserColumnName="NumeroLinea" type="xs:short" minOccurs="0" />
+              <xs:element name="NombreItem" msprop:Generator_ColumnPropNameInRow="NombreItem" msprop:Generator_ColumnPropNameInTable="NombreItemColumn" msprop:Generator_ColumnVarNameInTable="columnNombreItem" msprop:Generator_UserColumnName="NombreItem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MontoItem" msprop:Generator_ColumnPropNameInRow="MontoItem" msprop:Generator_ColumnPropNameInTable="MontoItemColumn" msprop:Generator_ColumnVarNameInTable="columnMontoItem" msprop:Generator_UserColumnName="MontoItem" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MontoGravadoTotal" msprop:Generator_ColumnPropNameInRow="MontoGravadoTotal" msprop:Generator_ColumnPropNameInTable="MontoGravadoTotalColumn" msprop:Generator_ColumnVarNameInTable="columnMontoGravadoTotal" msprop:Generator_UserColumnName="MontoGravadoTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MontoTotal" msprop:Generator_ColumnPropNameInRow="MontoTotal" msprop:Generator_ColumnPropNameInTable="MontoTotalColumn" msprop:Generator_ColumnVarNameInTable="columnMontoTotal" msprop:Generator_UserColumnName="MontoTotal" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

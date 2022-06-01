@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iECF", "iECF\iECF.csproj", "{382A6D15-42D4-43B0-A989-1806EC551C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iECF.Recepcion1.v1", "iECF.Recepcion1.v1\iECF.Recepcion1.v1.csproj", "{EA7BF288-51A6-4F7A-BE33-B4D40F529B5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{382A6D15-42D4-43B0-A989-1806EC551C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382A6D15-42D4-43B0-A989-1806EC551C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382A6D15-42D4-43B0-A989-1806EC551C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382A6D15-42D4-43B0-A989-1806EC551C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7BF288-51A6-4F7A-BE33-B4D40F529B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7BF288-51A6-4F7A-BE33-B4D40F529B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7BF288-51A6-4F7A-BE33-B4D40F529B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7BF288-51A6-4F7A-BE33-B4D40F529B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FF40045-0180-4F22-B7FE-3F52A55C60D3}
+	EndGlobalSection
+EndGlobal

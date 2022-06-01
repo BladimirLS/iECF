@@ -1,0 +1,63 @@
+﻿@model IEnumerable<iECF.Recepcion.Models.AprobacionComercial>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdEmisor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoEmisor.RNCEmisor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoIdDoc.TipoeCF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstadoEnvio.trackId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RecepcionResult.trackId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdEmisor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EcfEncabezadoEmisor.RNCEmisor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EcfEncabezadoIdDoc.TipoeCF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EcfEncabezadoTotale.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstadoEnvio.trackId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RecepcionResult.trackId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

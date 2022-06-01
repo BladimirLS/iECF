@@ -1,0 +1,106 @@
+﻿@model iECF.Recepcion.Models.EcfEncabezado
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EcfEncabezado</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Version)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Version)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ECFDetallesItemsItem.NombreItem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ECFDetallesItemsItem.NombreItem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezado1.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezado1.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezado2.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezado2.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoComprador.RNCComprador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoComprador.RNCComprador)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoEmisor.RNCEmisor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoEmisor.RNCEmisor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoIdDoc.TipoeCF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoIdDoc.TipoeCF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoInformacionale.FechaEmbarque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoInformacionale.FechaEmbarque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTotale.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoTotale.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EcfEncabezadoTransporte.Conductor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EcfEncabezadoTransporte.Conductor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EncabezadoOtraMoneda.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EncabezadoOtraMoneda.Id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f7cead0c2d2c45d49df4b486f27ec4d0" Name="Diagram1">
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.C__EFMigrationsHistory" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.Compradore" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.DgiiToken" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDescuentosORecargo" Width="1.5" PointX="13.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDescuentosORecargosDescuentosORecargo" Width="1.5" PointX="16" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItem" Width="1.5" PointX="1.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItemsItem" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItemsItemOtraMonedaDetalle" Width="1.5" PointX="1.5" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItemsItemRetencion" Width="1.5" PointX="1.5" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItemsItemTablaCodigosItem" Width="1.5" PointX="0.75" PointY="91.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaCodigosItemCodigosItem" Width="1.5" PointX="3" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFDetallesItemsItemTablaImpuestoAdicional" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaImpuestoAdicionalImpuestoAdicional" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubcantidad" Width="1.5" PointX="3.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubcantidadSubcantidadItem" Width="1.5" PointX="6" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubDescuento" Width="1.5" PointX="1.75" PointY="94.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubDescuentoSubDescuento" Width="1.5" PointX="4" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubRecargo" Width="1.5" PointX="4.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfDetallesItemsItemTablaSubRecargoSubRecargo" Width="1.5" PointX="7" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezado" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoComprador" Width="1.5" PointX="0.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoEmisor" Width="1.5" PointX="0.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoIdDoc" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoIdDocTablaFormasPagoFormaDePago" Width="1.5" PointX="6" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoIdDocTablaFormasPago" Width="1.5" PointX="3.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoInformacionale" Width="1.5" PointX="0.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoOtraMonedaImpuestosAdicionalesOtraMonedaImpuestoAdicionalOtraMoneda" Width="1.5" PointX="3" PointY="78.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoOtraMonedasImpuestosAdicionale" Width="1.5" PointX="0.75" PointY="89.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoTotale" Width="1.5" PointX="0.75" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoTotalesImpuestosAdicionalesEnumerable" Width="1.5" PointX="0.75" PointY="86.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFEncabezadoTotalesImpuestosAdicionalesImpuestoAdicional" Width="1.5" PointX="3" PointY="66.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EcfEncabezadoTransporte" Width="1.5" PointX="0.75" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ECFSubtotalesSubtotal" Width="1.5" PointX="11" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EfEcfSubtotalesEnumerable" Width="1.5" PointX="8.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.Emisore" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EncabezadoOtraMoneda" Width="1.5" PointX="0.75" PointY="76.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.EstadoEnvio" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.ExInformacionReferencia" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.Item" Width="1.5" PointX="5.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.Mensaje" Width="1.5" PointX="13.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.MensajeEnvio" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.RecepcionResult" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.Totale" Width="1.5" PointX="5.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.XZ" Width="1.5" PointX="15.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.comp_elec" Width="1.5" PointX="15.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.firma_comp" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.firma_comp_elec" Width="1.5" PointX="7.75" PointY="16.75" IsExpanded="true" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_Emisores_Compradores_CompradorId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFDescuentosORecargosDescuentosORecargo_ECFDescuentosORecargos_ECFDescuentosORecargosId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFDetallesItemsItem_ECFDetallesItems_ECFDetallesItemsId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFDetallesItemsItem_ECFDetallesItemsItemOtraMonedaDetalle_OtraMonedaDetalleId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFDetallesItemsItem_ECFDetallesItemsItemRetencion_RetencionId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaCodigosItemCodigosItems_ECFDetallesItemsItem_ECFDetallesItemsItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaImpuestoAdicionalImpuestoAdicionals_ECFDetallesItemsItem_ECFDetallesItemsItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubcantidadSubcantidadItems_ECFDetallesItemsItem_ECFDetallesItemsItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubDescuentoSubDescuentos_ECFDetallesItemsItem_ECFDetallesItemsItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubRecargoSubRecargos_ECFDetallesItemsItem_ECFDetallesItemsItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_ECFDetallesItemsItem" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaCodigosItemCodigosItems_ECFDetallesItemsItemTablaCodigosItem_ECFDetallesItemsItemTablaCodigosItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaImpuestoAdicionalImpuestoAdicionals_ECFDetallesItemsItemTablaImpuestoAdicional_ECFDetallesItemsItem_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubcantidadSubcantidadItems_EcfDetallesItemsItemTablaSubcantidads_ECFDetallesItemsItemTablaSubcanti_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubDescuentoSubDescuentos_EcfDetallesItemsItemTablaSubDescuentos_ECFDetallesItemsItemTablaSubDescue_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfDetallesItemsItemTablaSubRecargoSubRecargos_EcfDetallesItemsItemTablaSubRecargos_ECFDetallesItemsItemTablaSubRecargoId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezado" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoComprador_CompradorId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoEmisor_EmisorId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoIdDoc_IdDocId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoInformacionales_InformacionesAdicionalesId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoTotales_TotalesId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EcfEncabezadoTransporte_TransporteId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezado_EncabezadoOtraMonedas_OtraMonedaId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezadoIdDocTablaFormasPagoFormaDePago_EcfEncabezadoIdDoc_ECFEncabezadoIdDocId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_RecepcionResults_EcfEncabezadoIdDoc" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezadoIdDocTablaFormasPagoFormaDePago_EcfEncabezadoIdDocTablaFormasPagos_ECFEncabezadoIdDocTablaFormasPagoId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezadoOtraMonedaImpuestosAdicionalesOtraMonedaImpuestoAdicionalOtraMonedas_EcfEncabezadoOtraMonedasImpuestosAdicional_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_EcfEncabezadoOtraMonedaImpuestosAdicionalesOtraMonedaImpuestoAdicionalOtraMonedas_EncabezadoOtraMonedas_ECFEncabezadoOtraMon_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFEncabezadoTotalesImpuestosAdicionalesImpuestoAdicional_EcfEncabezadoTotales_ECFEncabezadoTotalesId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFEncabezadoTotalesImpuestosAdicionalesImpuestoAdicional_EcfEncabezadoTotalesImpuestosAdicionalesEnumerable_ECFEncabezadoTo_" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_ECFSubtotalesSubtotal_EfEcfSubtotalesEnumerable_ECFSubtotalesId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_Emisores_Items_ItemId" ManuallyRouted="false" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_Emisores_Totales_TotalesId" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Comp_ElectronicosModel.AprobacionComercial" Width="1.5" PointX="10" PointY="38.375" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_AprobacionComercial_EcfEncabezadoEmisor" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_AprobacionComercial_EcfEncabezadoIdDoc" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_AprobacionComercial_EcfEncabezadoTotales" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_AprobacionComercial_EstadoEnvios" />
+        <AssociationConnector Association="Comp_ElectronicosModel.FK_AprobacionComercial_RecepcionResults" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
